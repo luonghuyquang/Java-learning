@@ -8,7 +8,8 @@ public int amountOfFuel;
 	System.out.println("a=accelerate b=break x=exit");
 
 	car.printData();
-	
+// Ohjelmointi on hauskaa
+
 	Scanner in = new Scanner(System.in);
 	
 	String entry;
