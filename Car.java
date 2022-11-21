@@ -6,6 +6,9 @@ public int amountOfFuel;
 	
 	Car car = new Car("Toyota", "RAV4", 40);
 	System.out.println("a=accelerate b=break x=exit");
+
+	car.printData();
+	
 	Scanner in = new Scanner(System.in);
 	
 	String entry;
