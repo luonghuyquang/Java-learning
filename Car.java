@@ -9,7 +9,7 @@ public int amountOfFuel;
 
 	car.printData();
 	
-// Ohjelmointi on hauskaa
+// Ohjelmointi on hauskaa. Jee!
 
 	Scanner in = new Scanner(System.in);
 	
