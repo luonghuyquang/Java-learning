@@ -6,11 +6,6 @@ public int amountOfFuel;
 	
 	Car car = new Car("Toyota", "RAV4", 40);
 	System.out.println("a=accelerate b=break x=exit");
-
-	car.printData();
-	
-// Ohjelmointi on hauskaa. Jee!
-
 	Scanner in = new Scanner(System.in);
 	
 	String entry;
@@ -20,6 +15,8 @@ public int amountOfFuel;
 		System.out.println("a=accelerate b=break x=exit");}
 		else if (entry.equals("b")) {car.brake();
 		System.out.println("a=accelerate b=break x=exit");}
+		else if (!entry.equals("a")&&!entry.equals("b")) {System.out.println("unknown operation"); 
+															break;}
 		}
 	while (!entry.equals("x"));
 	in.close();
